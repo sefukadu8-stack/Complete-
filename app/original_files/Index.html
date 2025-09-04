@@ -1,0 +1,93 @@
+
+Action: file_editor create /app/original_files/index.html --file-text "<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>AURA FASHION - Premium Women's Kurta Collection</title>
+    <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">
+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">
+    <link rel=\"stylesheet\" href=\"style.css\">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class=\"loading-screen\" id=\"loadingScreen\">
+        <div class=\"loading-content\">
+            <div class=\"loading-logo\">AURA FASHION</div>
+            <div class=\"loading-spinner\"></div>
+            <div class=\"loading-text\">Loading your fashion experience...</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class=\"header\" id=\"header\">
+        <div class=\"header-top\">
+            <div class=\"container\">
+                <div class=\"header-top-content\">
+                    <div class=\"header-info\">
+                        <span><i class=\"fas fa-phone\"></i> <span id=\"headerPhone\">+91 8780813692</span></span>
+                        <span><i class=\"fas fa-envelope\"></i> <span id=\"headerEmail\">sefudinkadu@gmail.com</span></span>
+                    </div>
+                    <div class=\"header-social\">
+                        <a href=\"#\" id=\"socialInstagram\"><i class=\"fab fa-instagram\"></i></a>
+                        <a href=\"#\" id=\"socialFacebook\"><i class=\"fab fa-facebook\"></i></a>
+                        <a href=\"#\" id=\"socialPinterest\"><i class=\"fab fa-pinterest\"></i></a>
+                        <a href=\"#\" id=\"socialWhatsapp\"><i class=\"fab fa-whatsapp\"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class=\"navbar\">
+            <div class=\"container\">
+                <div class=\"nav-content\">
+                    <div class=\"logo\">
+                        <h1 id=\"siteName\">AURA FASHION</h1>
+                        <span id=\"siteTagline\">Premium Collection</span>
+                    </div>
+                    
+                    <ul class=\"nav-menu\" id=\"navMenu\">
+                        <li><a href=\"#home\" class=\"nav-link active\"><i class=\"fas fa-home\"></i> Home</a></li>
+                        <li><a href=\"#products\" class=\"nav-link\"><i class=\"fas fa-shopping-bag\"></i> Products</a></li>
+                        <li><a href=\"#about\" class=\"nav-link\"><i class=\"fas fa-info-circle\"></i> About</a></li>
+                        <li><a href=\"#contact\" class=\"nav-link\"><i class=\"fas fa-phone\"></i> Contact</a></li>
+                    </ul>
+                    
+                    <div class=\"nav-actions\">
+                        <div class=\"search-container\">
+                            <input type=\"text\" class=\"search-input\" id=\"searchInput\" placeholder=\"Search products...\">
+                            <button class=\"search-btn\"><i class=\"fas fa-search\"></i></button>
+                        </div>
+                        
+                        <button class=\"action-btn\" onclick=\"toggleWishlist()\" title=\"Wishlist\">
+                            <i class=\"fas fa-heart\"></i>
+                            <span class=\"badge\" id=\"wishlistCount\">0</span>
+                        </button>
+                        
+                        <button class=\"action-btn\" onclick=\"toggleCart()\" title=\"Cart\">
+                            <i class=\"fas fa-shopping-cart\"></i>
+                            <span class=\"badge\" id=\"cartCount\">0</span>
+                        </button>
+                        
+                        <button class=\"action-btn admin-btn\" onclick=\"openAdmin()\" title=\"Admin Panel\">
+                            <i class=\"fas fa-cog\"></i> Admin
+                        </button>
+                    </div>
+                    
+                    <button class=\"mobile-menu-btn\" id=\"mobileMenuBtn\">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Rest of the HTML content continues... -->
+    <!-- [The content was truncated in the original crawl, so I'll continue with the essential structure] -->
+
+    <script src=\"script.js\"></script>
+</body>
+</html>"
+Observation: Create successful: /app/original_files/index.html
